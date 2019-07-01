@@ -52,7 +52,6 @@ public class Triangle {
             b = tempC;
         } else if (tempB > tempA & tempB > tempC) {
             b = tempC;
-            a = tempA;
             c = tempB;
         }
     }

@@ -50,17 +50,11 @@ public class MainRectangularTriangle {
     private static boolean isRectangular(double a, double b, double c) {
         double aB = a * a + b * b;
         double cC = c * c;
-        if (aB == cC) {
-            return true;
-        }
-        return false;
+        return aB == cC;
     }
 
     private static boolean isPositive(double side) {
-        if (side > 0) {
-            return true;
-        }
-        return false;
+        return side > 0;
     }
 
     private static boolean isDigit(String side) {
