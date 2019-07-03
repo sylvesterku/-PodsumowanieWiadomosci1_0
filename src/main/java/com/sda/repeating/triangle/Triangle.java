@@ -6,7 +6,7 @@ public class Triangle {
     private double c;
 
     public Triangle() {
-        sort();
+        sortC();
     }
 
     public Triangle(double a, double b, double c) {
@@ -14,7 +14,7 @@ public class Triangle {
         this.b = b;
         this.c = c;
 
-        sort();
+        sortC();
     }
 
     public double getA() {
@@ -41,7 +41,7 @@ public class Triangle {
         this.c = c;
     }
 
-    private void sort() {
+    private void sortC() {
         double tempA = a;
         double tempB = b;
         double tempC = c;
